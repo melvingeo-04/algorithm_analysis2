@@ -1,0 +1,27 @@
+ADVERTISING CAMPAIGN OPTIMIZATION
+
+Campaign List
+Campaign A -> Cost: 10, Profit: 60
+Campaign B -> Cost: 20, Profit: 100
+Campaign C -> Cost: 30, Profit: 120
+Campaign D -> Cost: 25, Profit: 90
+
+Available Budget: 50
+
+Possible Campaign Combinations:
+['Campaign A'] | Cost=10 Profit=60
+['Campaign B'] | Cost=20 Profit=100
+['Campaign C'] | Cost=30 Profit=120
+['Campaign D'] | Cost=25 Profit=90
+['Campaign A', 'Campaign B'] | Cost=30 Profit=160
+['Campaign A', 'Campaign C'] | Cost=40 Profit=180
+['Campaign A', 'Campaign D'] | Cost=35 Profit=150
+['Campaign B', 'Campaign C'] | Cost=50 Profit=220
+['Campaign B', 'Campaign D'] | Cost=45 Profit=190
+
+Selected Campaigns:
+Campaign C -> Cost: 30, Profit: 120
+Campaign B -> Cost: 20, Profit: 100
+
+Maximum Total Revenue: 220
+Time Complexity: O(n * Budget)
